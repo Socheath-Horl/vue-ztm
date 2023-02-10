@@ -11,7 +11,3 @@ const vm = Vue.createApp({
     }
   }
 }).mount('#app')
-
-setTimeout(() => {
-  vm.firstName = 'Bob';
-}, 2000)
